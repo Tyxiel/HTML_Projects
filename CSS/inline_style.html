@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+	<style>
+			.blue {
+				color: blue;
+			}
+			.center{
+				text-align: center;
+			}
+			p + hr {
+  				min-width: 287px;
+			}
+
+			#corpo {
+				background-image: url('img/beige-solid.jpg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+	
+	</style>
+
+	<head>
+		<title>Inline Style</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body class="center" id="corpo">
+		<h2>CSS3 Inline Style</h2>
+
+		<p>Este estilo é feito dentro do própio elemento</p>
+
+		<hr style="opacity: 50%;" width="287px" align="center" size="1">
+
+		<h3>Exemplo:</h3>
+		<h4>Código:</h4>
+
+		<p>
+			<span style="white-space: nowrap;">
+
+				&lt<span class="blue">p</span> <em style="color: blue;">style="color: green;"</em>&gt
+
+			</span>
+
+			<br>
+			<br>
+			Olá, eu sou Tyxiel!
+			<br>
+			<br>
+
+			<span style="white-space: nowrap;">
+
+				&lt/<span class="blue">p</span>&gt
+				
+			</span>
+		</p>
+
+		<h4>Resultado:</h4>
+
+		<p style="color: green">
+			Olá, eu sou Tyxiel
+		</p>
+
+		<hr style="opacity: 50%;" width="35%" align="center" size="1">
+
+		<h3>Exemplo 2:</h3>
+		<h4>Código</h4>
+		<p>
+			<span style="white-space: nowrap;">
+				&lt<span class="blue"><em>span style="background-color: rgba(0, 0, 150, 0.2)"</em></span>&gt
+			</span>
+
+			<br>
+			<br>
+				Bem vindo ao meu GitHub!
+			<br>
+			<br>
+
+			<span style="white-space: nowrap;">
+				&lt/<span class="blue">span</span>&gt
+			</span>
+		</p>
+
+		<h4>Resultado:</h4>
+		<p>
+			<span style="white-space: nowrap; background-color: rgba(0, 0, 150, 0.2) ">
+				Bem vindo ao meu GitHub!
+			</span>
+		</p>
+
+		<hr style="opacity: 50%;" width="491px" align="center" size="1">
+
+		<p>Isso retira a necessidade de abrir um <strong>estilo externo</strong>, além de ser mais prático</p>
+	</body>
+</html>
