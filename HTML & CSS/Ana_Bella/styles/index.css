@@ -1,0 +1,10 @@
+#corpo {
+    justify-content: left;
+}
+.pgns {
+    display: inline-block;
+    color:darkblue
+}
+.no-color {
+    color: black;
+}
