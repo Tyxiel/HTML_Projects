@@ -1,9 +1,12 @@
 #corpo {
     justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .pgns {
     display: inline-block;
-    color:darkblue
+    color:DarkSlateGrey;
+    font-weight: bold;
+    word-spacing: 5px;
 }
 .no-color {
     color: black;
