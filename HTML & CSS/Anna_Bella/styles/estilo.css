@@ -1,0 +1,61 @@
+#corpo {
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+table {
+    width: 765px;
+    height: 329px;
+}
+
+.title {
+    color: rgb(150, 150, 125);
+    font-weight: bold;
+    line-height: 50px;
+    display: block;
+    text-indent: 9px;
+}
+
+.pgns {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.no-color {
+    color: black;
+}
+
+.resumo {
+    padding: 0px 8px 0px 8px;
+    background: beige;
+    display: block;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.img-contact {
+    border: 10px solid #d3d3bc;
+}
+
+.nav-list {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0px 30px;
+}
+
+.nav-list li a {
+    color: cadetblue;
+}
+
+.nav-list li a:hover {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
