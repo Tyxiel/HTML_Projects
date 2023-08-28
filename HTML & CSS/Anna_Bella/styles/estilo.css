@@ -19,7 +19,6 @@ table {
 
 .pgns {
     display: inline-block;
-    font-weight: bold;
 }
 
 .no-color {
@@ -43,10 +42,11 @@ table {
     justify-content: center;
     align-items: center;
     display: flex;
+    font-weight: bold;
 }
 
 .nav-list li {
-    margin: 0px 30px;
+    margin: 0px 35px;
 }
 
 .nav-list li a {
