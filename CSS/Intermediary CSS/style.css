@@ -1,3 +1,5 @@
+/* Modelo de Caixa */
+
 body {
     font-family: cursive;
     justify-content: center;
@@ -12,11 +14,20 @@ body {
 #content1 {
     padding: 5px;
     margin: 5px;
-    width: 75%;
+    width: 50%;
 }
 
 #content2 {
     padding: 5px;
     margin: 5px;
-    width: 75%;
+    width: 50%;
 }
+
+#content3 {
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+}
+
+/* Elementos Flututantes */
+
