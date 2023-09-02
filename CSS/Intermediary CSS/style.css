@@ -1,0 +1,22 @@
+body {
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content div {
+    border: 2px solid orange;
+}
+
+#content1 {
+    padding: 5px;
+    margin: 5px;
+    width: 75%;
+}
+
+#content2 {
+    padding: 5px;
+    margin: 5px;
+    width: 75%;
+}
