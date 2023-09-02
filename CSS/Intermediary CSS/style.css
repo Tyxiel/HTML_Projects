@@ -9,6 +9,8 @@ body {
 
 .content div {
     border: 2px solid orange;
+    background-color: lightgray;
+    clear: both;
 }
 
 #content1 {
@@ -27,6 +29,11 @@ body {
     padding: 5px;
     margin: 5px;
     width: 50%;
+}
+
+.img-float {
+    float: right;
+    margin-left: 10px;
 }
 
 /* Elementos Flututantes */
