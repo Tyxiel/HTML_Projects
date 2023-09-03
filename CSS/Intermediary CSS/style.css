@@ -10,28 +10,33 @@ body {
 .content div {
     border: 2px solid orange;
     background-color: lightgray;
-    clear: both;
 }
 
 #content1 {
     padding: 5px;
     margin: 5px;
-    width: 50%;
+    width: 200px;
+    height: 200px;
+    float: right;
 }
 
 #content2 {
     padding: 5px;
     margin: 5px;
-    width: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 #content3 {
     padding: 5px;
     margin: 5px;
-    width: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .img-float {
+    width: 1080px;
+    height: 600px;
     float: right;
     margin-left: 10px;
 }
