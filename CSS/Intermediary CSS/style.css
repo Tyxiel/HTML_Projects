@@ -34,12 +34,12 @@ body {
     height: 200px;
 }
 
+/* Elementos Flututantes */
+
 .img-float {
     width: 1080px;
     height: 600px;
     float: right;
     margin-left: 10px;
 }
-
-/* Elementos Flututantes */
 
