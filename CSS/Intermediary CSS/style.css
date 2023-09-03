@@ -1,45 +1,24 @@
 /* Modelo de Caixa */
 
-body {
-    font-family: cursive;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.content div {
-    border: 2px solid orange;
-    background-color: lightgray;
-}
-
-#content1 {
-    padding: 5px;
-    margin: 5px;
+/*#content1 {
     width: 200px;
     height: 200px;
-    float: right;
 }
 
 #content2 {
-    padding: 5px;
-    margin: 5px;
     width: 200px;
     height: 200px;
 }
 
 #content3 {
-    padding: 5px;
-    margin: 5px;
     width: 200px;
     height: 200px;
-}
+}*/
 
 /* Elementos Flututantes */
 
 .img-float {
-    width: 1080px;
-    height: 600px;
-    float: right;
-    margin-left: 10px;
+    width: 100px;
+    height: 50px;
 }
 
