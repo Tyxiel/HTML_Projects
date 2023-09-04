@@ -1,6 +1,6 @@
 /* Modelo de Caixa */
 
-/*#content1 {
+#content1 {
     width: 200px;
     height: 200px;
 }
@@ -13,12 +13,47 @@
 #content3 {
     width: 200px;
     height: 200px;
-}*/
+}
 
 /* Elementos Flututantes */
 
+/*#corpo {
+    background-color: antiquewhite;
+}*/
+.content {
+    text-align: center;
+    background-color: antiquewhite;
+    border: 5px solid red;
+    clear: both;
+}
+
+.box {
+    border: 1px solid orange;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+.text {
+    font-size: 17px;
+    text-align: justify;
+    margin: 15px 0px 0px 15px
+}
 .img-float {
     width: 100px;
     height: 50px;
 }
 
+/* Pratica de Elementos Flutuantes*/
+
+#corpo {
+    background-color: azure;
+}
+
+.noticia {
+    float: left;
+}
