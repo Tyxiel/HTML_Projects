@@ -23,12 +23,10 @@
 .content {
     text-align: center;
     background-color: antiquewhite;
-    border: 5px solid red;
     clear: both;
 }
 
 .box {
-    border: 1px solid orange;
     width: 150px;
     height: 150px;
     margin: 5px;
@@ -50,10 +48,51 @@
 
 /* Pratica de Elementos Flutuantes*/
 
+#principal {
+    width: 90%;
+}
+
 #corpo {
-    background-color: azure;
+    background-color: #f4f4f4;
+}
+
+#corpo h2 {
+    justify-content: center;
+    text-align: center;
 }
 
 .noticia {
     float: left;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.noticia img {
+    float: left;
+}
+
+.resumo {
+    float:left;
+    width: 280px;
+    margin: 5px 8px 5px 8px;
+    padding: 10px;
+    /*border-right: 1px solid #000;*/
+    background-color: beige;
+}
+
+.resumo:last-child {
+    border-right: none;
+}
+
+.legenda {
+    color: #000;
+}
+
+.imagens {
+    position: relative;
+    float: left;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
 }
