@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.titulo {
+    white-space: nowrap;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #ffc400;
+}
+
+#blog {
+    color: white;
+}
+
+.links {
+    align-items: center;
+    text-align: center;
+    background-color: #ffc400;
+    padding-bottom: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 15px;
+}
