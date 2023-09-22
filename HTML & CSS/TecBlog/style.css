@@ -1,15 +1,22 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fbf8fb;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar{
+    background-color: #ffc400;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .titulo {
-    white-space: nowrap;
-    margin: auto;
-    text-align: center;
     padding: 20px;
     font-size: 40px;
     font-weight: 600;
-    background-color: #ffc400;
 }
 
 #blog {
@@ -17,13 +24,25 @@ body {
 }
 
 .links {
-    align-items: center;
-    text-align: center;
     background-color: #ffc400;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .links a {
     text-decoration: none;
+    font-weight: 600;
     margin: 0 15px;
+}
+
+.links a:link {
+    color: white;
+}
+
+.links a:visited {
+    color: white;
+}
+
+.links a:hover {
+    color: black;
+    transition: color 0.3s ease;
 }
