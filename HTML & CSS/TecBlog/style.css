@@ -46,3 +46,65 @@ body {
     color: black;
     transition: color 0.3s ease;
 }
+
+.post_1 {
+    background-color: white;
+    width: 52%;
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+
+.legenda {
+    position: relative; 
+    bottom: 13px;
+    margin: 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+.post_1 h3 {
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px 0px 0px 10px;
+}
+
+.post_1 img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px;
+    padding: 0px 0px 10px 10px;
+}
+
+.recent-posts {
+    float: right;
+    position: relative;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin-top: 25px;
+    margin-right: 150px;
+    border-radius: 5px;
+}
+
+.recent-posts h3 {
+    margin: 0px 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+.recent-posts p {
+    margin: 0px 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+.recent-posts hr {
+    margin: 5px 15px;
+    opacity: 25%;
+    border-top: 1px;
+}
+
+.read-more {
+    color: #ffc400;
+    margin: 0px 10px;
+    padding: 0px 10px 10px 10px;
+}
