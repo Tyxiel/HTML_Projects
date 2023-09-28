@@ -50,6 +50,10 @@ body {
     transition: color 0.3s ease;
 }
 
+#all-content {
+    margin: 0 auto;
+}
+
 .post-text {
     position: relative; 
     margin: 0px 30px 0px 10px;
@@ -60,7 +64,7 @@ body {
 .post_1 {   
     position: relative;
     background-color: white;
-    width: 660px;
+    width: 50%;
     padding: 10px;
     margin: 25px auto 25px 200px;
     float: left;
@@ -91,10 +95,10 @@ body {
     float: right;
     position: relative;
     background-color: white;
-    width: 240px;
+    width: 20%;
     height: 20%;
     margin-top: 25px;
-    margin-right: 200px;
+    margin-right: 150px;
     border-radius: 7px;
 }
 
@@ -103,10 +107,10 @@ body {
     float: right;
     position: relative;
     background-color: white;
-    width: 240px;
+    width: 20%;
     height: 20%;
     margin-top: 25px;
-    margin-right: 200px;
+    margin-right: 150px;
     border-radius: 7px;
 }
 
