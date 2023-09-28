@@ -100,7 +100,7 @@ body {
     border-radius: 7px;
 }
 
-.categories {
+.catalog {
     clear: both;
     float: right;
     position: relative;
@@ -112,26 +112,26 @@ body {
     border-radius: 7px;
 }
 
-.categories h3 {
+.catalog h3 {
     margin: 0px 10px;
     padding: 10px 10px 0px 10px;
 }
 
-.categories a {
+.catalog a {
     text-decoration: none;
     font-weight: 600;
     margin: 0 15px;
 }
 
-.categories a:link {
+.catalog a:link {
     color: #ffc400;
 }
 
-.categories a:visited {
+.catalog a:visited {
     color: #ffc400;
 }
 
-.categories a:hover {
+.catalog a:hover {
     color: black;
     transition: color 0.3s ease;
 }
