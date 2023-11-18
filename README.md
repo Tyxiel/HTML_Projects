@@ -1,3 +1,3 @@
 # HTML_Projects
 
-Here i will post my projects on HTML, CSS and JS
+Here i will post my little projects in HTML, CSS and JS
